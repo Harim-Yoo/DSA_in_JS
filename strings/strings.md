@@ -58,6 +58,17 @@ class My_String {
     return result.join("");
   }
 
+  reverse() {
+    let start = 0;
+    let end = this.len;
+    let result = [];
+    
+    for (let i=end-1;i>=start;i--) {
+      result.push(this.arr[i]);
+    }
+    return result;
+  }
+
   // more methods to make.
 
 }
